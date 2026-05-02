@@ -390,7 +390,7 @@ transition:.4s ease;
 /* SECTION */
 
 .section{
-padding:110px 0;
+padding:55px 0;
 }
 
 /* TITLES */
@@ -541,7 +541,7 @@ background:#080808;
 
 border-top:1px solid rgba(0,255,120,.10);
 
-padding:90px 0 55px;
+padding:35px 0 15px;
 }
 
 footer p,
@@ -665,4 +665,18 @@ padding:18px 20px;
 min-width:100%;
 }
 
+}
+
+.payment-logos{
+padding-top:10px !important;
+padding-bottom:10px !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+
+.payment-logos img{
+max-width:850px;
+width:100%;
+display:block;
+margin:auto;
 }
