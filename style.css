@@ -296,7 +296,6 @@ padding-top:150px;
 padding-bottom:100px;
 }
 
-/* HERO TEXT */
 
 .hero-title{
 font-size:88px;
@@ -310,9 +309,12 @@ font-weight:900;
 color:#ffffff !important;
 
 text-shadow:
-0 0 20px rgba(0,0,0,.95),
-0 0 40px rgba(0,0,0,.95);
+0 0 8px rgba(255,255,255,.25),
+0 0 18px rgba(0,0,0,.95),
+0 0 40px rgba(0,0,0,.95),
+0 0 70px rgba(0,0,0,.95);
 }
+
 
 .hero-desc{
 font-size:24px;
@@ -325,8 +327,17 @@ font-weight:800;
 
 line-height:1.9;
 
+padding:18px 22px;
+
+border-radius:18px;
+
+background:rgba(0,0,0,.35);
+
+backdrop-filter:blur(6px);
+
 text-shadow:
-0 0 16px rgba(0,0,0,.95);
+0 0 10px rgba(0,0,0,.95),
+0 0 25px rgba(0,0,0,.95);
 
 margin-bottom:48px;
 }
