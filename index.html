@@ -3,9 +3,9 @@
 ```html
 <!DOCTYPE html>
 <html lang="en-IN">
-<link rel="stylesheet" href="./style.css">
 <head>
 
+<link rel="stylesheet" href="./style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,216 +22,6 @@
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-background:#070707;
-color:#ffffff;
-font-family:'Poppins',sans-serif;
-overflow-x:hidden;
-}
-
-body::before{
-content:'';
-position:fixed;
-inset:0;
-background:
-radial-gradient(circle at top left, rgba(0,255,120,0.10), transparent 35%),
-radial-gradient(circle at bottom right, rgba(0,255,120,0.06), transparent 35%);
-pointer-events:none;
-z-index:-1;
-}
-
-.container-custom{
-max-width:1250px;
-margin:auto;
-padding-left:20px;
-padding-right:20px;
-}
-
-.gold{
-color:#00ff88;
-}
-
-.section{
-padding:100px 0;
-}
-
-.glow{
-text-shadow:0 0 20px rgba(0,255,120,0.5);
-}
-
-.btn-gold{
-background:linear-gradient(135deg,#00ff88,#00c853);
-color:#000;
-font-weight:700;
-padding:14px 34px;
-border-radius:999px;
-transition:0.3s;
-display:inline-flex;
-align-items:center;
-gap:10px;
-box-shadow:0 10px 40px rgba(0,255,120,0.20);
-}
-
-.btn-gold:hover{
-transform:translateY(-3px) scale(1.03);
-box-shadow:0 15px 50px rgba(0,255,120,0.35);
-}
-
-.btn-dark{
-background:#151515;
-border:1px solid rgba(255,255,255,0.1);
-padding:14px 34px;
-border-radius:999px;
-transition:0.3s;
-}
-
-.btn-dark:hover{
-background:#1d1d1d;
-}
-
-.hero-bg{
-position:relative;
-background:
-linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.90)),
-url('./image/hero-banner.webp');
-background-size:cover;
-background-position:center;
-}
-
-.hero-bg::after{
-content:'';
-position:absolute;
-inset:0;
-background:radial-gradient(circle at center, transparent 20%, #070707 90%);
-}
-
-.hero-content{
-position:relative;
-z-index:2;
-}
-
-.card{
-background:linear-gradient(180deg,#101010,#0b0b0b);
-border:1px solid rgba(0,255,120,0.08);
-border-radius:24px;
-padding:35px;
-transition:0.35s;
-position:relative;
-overflow:hidden;
-}
-
-.card::before{
-content:'';
-position:absolute;
-top:-50%;
-left:-50%;
-width:200%;
-height:200%;
-background:radial-gradient(circle, rgba(0,255,120,0.06), transparent 40%);
-transform:rotate(25deg);
-}
-
-.card:hover{
-transform:translateY(-8px);
-border-color:rgba(0,255,120,0.3);
-box-shadow:0 20px 60px rgba(0,255,120,0.10);
-}
-
-.payment-icon{
-background:#121212;
-padding:20px;
-border-radius:18px;
-display:flex;
-align-items:center;
-justify-content:center;
-font-weight:700;
-border:1px solid rgba(255,255,255,0.08);
-}
-
-.testimonial{
-background:#111111;
-border-left:4px solid #00ff88;
-padding:30px;
-border-radius:20px;
-}
-
-.accordion-content{
-display:none;
-}
-
-.accordion.active .accordion-content{
-display:block;
-}
-
-.floating-btn{
-position:fixed;
-right:20px;
-z-index:999;
-display:flex;
-align-items:center;
-justify-content:center;
-width:60px;
-height:60px;
-border-radius:50%;
-box-shadow:0 10px 30px rgba(0,0,0,0.4);
-transition:0.3s;
-}
-
-.floating-btn:hover{
-transform:scale(1.08);
-}
-
-.telegram-btn{
-bottom:95px;
-background:#229ED9;
-}
-
-.whatsapp-btn{
-bottom:20px;
-background:#25D366;
-}
-
-.mobile-menu{
-display:none;
-}
-
-@media(max-width:768px){
-.desktop-menu{
-display:none;
-}
-
-.mobile-menu{
-display:flex;
-}
-
-.mobile-nav{
-display:none;
-flex-direction:column;
-gap:18px;
-padding:25px;
-background:#0f0f0f;
-border-top:1px solid rgba(255,255,255,0.08);
-}
-
-.mobile-nav.active{
-display:flex;
-}
-}
-
-</style>
 
 </head>
 <body>
@@ -313,11 +103,11 @@ Register
 </div>
 
 <h1 class="text-5xl md:text-7xl font-black leading-tight mb-8 glow">
-PLAY. PREDICT. <span class="gold">WIN BIG.</span>
+KHELO. JEETO. <span class="bg-green-500">EARN KARO.</span>
 </h1>
 
 <p class="text-lg text-gray-300 mb-10 max-w-2xl">
-Welcome to Yaar Win Official — India’s premium color prediction gaming platform where players enjoy secure gameplay, instant withdrawals, real earning opportunities, exciting bonuses, and fast customer support.
+India ka trusted gaming platform jahan users enjoy karte hain fast withdrawal, secure deposit, cricket games, live casino aur daily earning opportunities with premium support system.
 </p>
 
 <div class="flex flex-wrap gap-5 mb-10">
@@ -344,7 +134,7 @@ DOWNLOAD APK
 
 <div class="relative flex justify-center">
 
-<img src="./image/hero-banner.webp"
+<img src="./image/jackpot-banner.webp"
 class="rounded-[30px] border border-green-500/20 shadow-2xl shadow-green-500/20 object-cover"
 alt="YaarWin India Banner">
 
@@ -508,7 +298,9 @@ DOWNLOAD NOW
 
 <div>
 
-<img src="https:./image/download-app.webp" class="rounded-[30px] border border-green-500/10" alt="APK Download">
+<img src="./image/download-app.webp"
+class="rounded-[30px] border border-green-500/10"
+alt="APK Download">
 
 </div>
 
