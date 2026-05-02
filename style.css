@@ -262,18 +262,18 @@ transition:all .3s ease;
 position:relative;
 
 background:
-linear-gradient(rgba(0,0,0,.55),
-rgba(0,0,0,.72)),
+linear-gradient(to right,
+rgba(0,0,0,0.88) 0%,
+rgba(0,0,0,0.82) 35%,
+rgba(0,0,0,0.70) 60%,
+rgba(0,0,0,0.88) 100%
+),
 url('./image/hero-banner.webp');
 
-background-size:cover;
-background-position:center center;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
-overflow:hidden;
-min-height:100vh;
-
-display:flex;
-align-items:center;
 }
 
 .hero-bg::after{
