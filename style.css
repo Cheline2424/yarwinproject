@@ -1,4 +1,3 @@
-```css id="rq6vxt"
 /* ================================= */
 /* YAARWIN INDIA PREMIUM FINAL UI    */
 /* COMPLETE REDESIGN STYLE.CSS       */
@@ -56,9 +55,9 @@ padding-right:24px;
 /* COLORS */
 
 .gold{
-color:#00ff88;
+color:#ffd700;
 text-shadow:
-0 0 12px rgba(0,255,120,.45);
+0 0 12px rgba(255,215,0,.45);
 }
 
 .green{
@@ -79,10 +78,11 @@ position:fixed;
 top:0;
 left:0;
 width:100%;
-z-index:999;
+z-index:9999;
 background:rgba(0,0,0,.88);
 backdrop-filter:blur(18px);
 border-bottom:1px solid rgba(0,255,120,.12);
+overflow:visible !important;
 }
 
 nav a{
@@ -98,6 +98,12 @@ text-shadow:
 
 nav a:hover{
 color:#00ff88 !important;
+}
+
+.desktop-menu{
+display:flex;
+align-items:center;
+gap:18px;
 }
 
 .desktop-menu a{
@@ -136,12 +142,13 @@ drop-shadow(0 0 15px rgba(0,255,120,.25));
 }
 
 /* ================================= */
-/* FINAL GREEN BUTTON SYSTEM         */
+/* PREMIUM BUTTON SYSTEM */
 /* ================================= */
 
 .btn-primary{
-background:#00ff66 !important;
-color:#ffffff !important;
+background:linear-gradient(135deg,#ffcc00,#ff9900) !important;
+
+color:#111111 !important;
 
 font-weight:900;
 font-size:20px;
@@ -156,31 +163,31 @@ justify-content:center;
 
 text-decoration:none;
 
-border:2px solid #00ff99;
+border:2px solid #ffd700;
 
 transition:.3s ease;
 
 min-width:240px;
 
 box-shadow:
-0 0 20px rgba(0,255,120,.55);
+0 0 20px rgba(255,200,0,.45);
 
 text-shadow:none !important;
 }
 
 .btn-primary:hover{
-background:#00ff88 !important;
+background:linear-gradient(135deg,#ffd700,#ffb300) !important;
 
 transform:scale(1.03);
 
 box-shadow:
-0 0 35px rgba(0,255,120,.85);
+0 0 35px rgba(255,200,0,.85);
 }
 
-/* SECOND BUTTON */
+/* REGISTER BUTTON */
 
 .btn-dark{
-background:#00cc66 !important;
+background:linear-gradient(135deg,#00ff88,#00cc66) !important;
 
 color:#ffffff !important;
 
@@ -210,7 +217,7 @@ text-shadow:none !important;
 }
 
 .btn-dark:hover{
-background:#00ff88 !important;
+background:linear-gradient(135deg,#00ff99,#00dd77) !important;
 
 transform:scale(1.03);
 
@@ -218,17 +225,35 @@ box-shadow:
 0 0 35px rgba(0,255,120,.85);
 }
 
+/* ================================= */
 /* NAVBAR BUTTON FIX */
+/* ================================= */
 
 nav .btn-primary,
 nav .btn-dark{
+
 min-width:auto !important;
 
 padding:16px 34px !important;
 
 font-size:16px !important;
 
-border-radius:14px !important;
+border-radius:16px !important;
+
+display:inline-flex;
+align-items:center;
+justify-content:center;
+
+position:relative;
+z-index:9999;
+
+overflow:visible;
+
+margin-left:12px;
+
+font-weight:800;
+
+transition:all .3s ease;
 }
 
 /* HERO */
@@ -630,4 +655,3 @@ min-width:100%;
 }
 
 }
-```
